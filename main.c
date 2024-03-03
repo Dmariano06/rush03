@@ -130,8 +130,6 @@ void convert_to_words(long long number, KeyValuePair *dictionary, int num_words)
                          1000000000,
                          1000000,
                          1000};
-    char *unit_names[] = {"sextillion", "quintillion", "quadrillion",
-                                "trillion",   "billion",     "million"};
     int start_index = 0;
     if (number >= 1000000000000000000LL) {
         start_index = 0; // sextillion
